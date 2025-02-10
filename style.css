@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1c2e4a;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+header #icon{
+    padding: 15px;
+    
+}
+header #img{
+    padding: 15px;
+    
+}
+#img img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+body{
+    width: 100%;
+    background-color: #d1cfc9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: column;
+}
+#input-container{
+    height: 50px;
+    width: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#input-container input{
+    height: 50px;
+    width: 500px;
+    padding: 5px;
+    border: 3px solid #1c2e4a;
+    outline: none;
+    background-color: #efefef;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+#input-container button{
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    background-color:#1c2e4a ;
+    color: white;
+    font-size: 18px;
+    font-weight: 450;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#task-container{
+    width: 650px;
+    /* border: 1px solid; */
+    height: 400px;
+    
+}
+#task-container ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+#task-container ul li{
+    height: auto;
+    width: 650px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #efefef;
+    border-radius: 5px;
+}
+#task-container ul li p{
+   width: 550px;
+   height: auto;
+   border: 1px solid;
+   padding: 5px;
+   display: flex;
+   align-items: center;
+   border: none;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis; 
+}
+#task-container ul li #edit{
+    height: 95%;
+    width: 40px;
+    cursor: pointer;
+    color: #0404fe;
+    background-color: #efefef;
+    border-radius: 5px;
+    border: none;
+}
+#task-container ul li #delete{
+    height: 95%;
+    width: 45px;
+    cursor: pointer;
+    color: #fe0000;
+    background-color: #efefef;
+    border-radius: 5px;
+    border: none;
+}
